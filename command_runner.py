@@ -72,7 +72,7 @@ def display(responses, cache):
         for cmd, output in outputs.items():
             lines = output.split("\n")
             text = lines[1:-1]
-            print("{}:{}: {}".format(ip, text))
+            print("{}: {}".format(ip, text))
 
 def all_run_command(dnac, cmds, ips):
 
